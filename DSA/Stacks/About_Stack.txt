@@ -1,0 +1,17 @@
+What is Stack?
+
+
+Think of a stack like a stack of books. You can add a book to the top of the stack, or remove the top book from the stack.
+
+This is similar to how a stack data structure works in computer science. You can add an item to the top of the stack, and then remove that item from the top of the stack. This type of data structure follows a "last in, first out" (LIFO) order, which means that the last item added to the stack will be the first one removed. Stacks are often used in computer programs to temporarily store information, such as function calls or memory addresses.
+
+ 
+
+The five main operations in a stack are:
+
+Push: Add an element to the top of the stack.
+Pop: Remove the top element from the stack.
+Peek/Top: Return the value of the top element without removing it.
+Size: Return the number of elements in the stack.
+IsEmpty: Check if the stack is empty.
+ 
