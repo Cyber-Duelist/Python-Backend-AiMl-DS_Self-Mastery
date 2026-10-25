@@ -1,15 +1,20 @@
-"""class Stack:
+class Stack:
     def __init__(self):
-        self.items = []
+        self.elements = []
 
-    def push(self, value):
-        self.items.append(value)
+    def push(self, element):
+        self.elements.append(element)
 
     def pop(self):
         if not self.is_empty():
-            return self.items.pop()
+            return self.elements.pop()
+
+    def top(self):
+        if not self.is_empty():
+            return self.elements[-1]
 
     def is_empty(self):
-        return len(self.items) == 0"""
+        return len(self.elements) == 0
+
 
 # This is the stack module that we can use in different codes for stack operations
