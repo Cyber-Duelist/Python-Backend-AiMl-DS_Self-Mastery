@@ -1,0 +1,18 @@
+## What is Queue?
+
+
+A queue is like a line of people waiting for something.
+
+In programming, a queue is a list of items where you can only add new items to the back of the list, and you can only remove items from the front of the list. It's first in, first out (FIFO) data structure, which means that the item that was added first will be the first one to be removed.
+
+Just like a line of people, you can't jump to the front of the line, you have to wait for your turn. Similarly, in a queue data structure, you have to wait for your turn to get processed.
+
+ 
+
+The five main operations in a queue are:
+
+1.Enqueue: Adding an element to the back of the queue.
+2.Dequeue: Removing the element from the front of the queue.
+3.Front: Retrieving the first element in the queue without removing it.
+4.Rear: Retrieving the last element in the queue without removing it.
+5.Size: Getting the number of elements currently in the queue.
